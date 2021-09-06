@@ -1,0 +1,281 @@
+body
+{  position: relative;
+    background-color: white;
+    width:100%;
+    margin:0 auto;
+    margin-right: 0;
+    
+    
+}
+p{
+    font-family: thahoma;
+}
+
+hr{
+    margin-top:2%;
+}
+
+footer{
+   
+    width: 100%;
+    height:10vh;
+}
+#wrapper_footer{
+    background-color: rgb(173, 235, 176);
+}
+ div.wrapper_header{
+     display: flex;
+     flex-direction: row;
+ }
+img{
+    width: 100%;
+    height:auto;
+    
+   
+}
+nav{
+    margin-top:-17px;
+    background-color: rgb(173, 235, 176);
+    position: sticky;
+    width: 100%;
+    height:15vh;
+    
+}
+
+ul{ 
+    padding-right: 2%;
+    width:100%;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+     
+}
+li,a{
+    display: inline;  
+    list-style-type:none;
+    font-family:second-font;
+    font-size: 200%;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding:1% 1% 1% 1%;
+    border-radius: 20%;
+   
+    
+}
+li:hover{
+    background-color: rgb(189, 126, 68);
+}
+
+#active{
+    
+    background-color:rgb(96, 148, 89)
+}
+
+
+#header-text{
+    font-family:monospace;
+    color: rgb(3, 3, 3);
+    position: absolute;
+    font-size:2vw;
+    right: 10px;;
+    z-index:3;
+    margin-top:5%;
+    width:20%;
+    margin-right:10%;
+
+}
+.bloggen {
+
+    font-family:meny;
+    color: rgba(214, 135, 61, 0.801);
+    position: absolute;
+    top:0;
+    font-size:10vw;
+    z-index:2;
+}
+.rubrik{
+   
+    font-size: 5vw;
+    font-family: second-font;
+    text-align: center;
+    margin-top: 5%;
+    color:rgb(189, 126, 68);
+
+}
+
+
+@font-face{
+    font-family:first-font;
+    src:url(Beatrica.otf);
+    font-weight:bold;
+}
+@font-face{
+    font-family:third-font;
+    src:url(JackRollDemoRegular.ttf);
+    
+}
+
+
+    @font-face{
+        font-family:second-font;
+        src:url(Better\ Grade.ttf);
+        font-weight:bold;}
+        div.articlewrapper{
+            display: flex;
+            flex-direction: row;
+        }
+
+@font-face {
+    font-family:meny;
+    src: url(28\ Days\ Later.ttf);
+}
+
+    div.articlewrapper2{
+        display: flex;
+        flex-direction: column; 
+        margin-top: 1%;;
+        width:80%; 
+        margin:0 auto;
+        padding-top: 1%;
+      
+        
+       
+        
+    }
+    div.articlewrapper{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2%;;
+        width:80%; 
+        margin: auto;
+        
+        
+    }
+
+    #Rebecca{
+        width:200px;
+        height:auto;
+        order:2;
+        margin-right:20%;
+        border:2px solid #2c5252;
+
+        
+        border-radius: 5%;
+        z-index: 2;
+    }
+    #bloggbild{
+        max-width:400px;
+        height:auto;
+        order:2;
+        margin:0 auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+       
+    }
+    #personlighet{
+        margin-left: 20%;
+        order:1;
+        padding: 2%;
+        background-color: rgb(245, 239, 215);
+       
+    }
+
+    #text2{
+        margin-top:7%;
+        max-width:80%;
+        margin:0 auto;
+        order:1;
+        padding: 2%;
+        background-color: rgb(245, 239, 215);
+    }
+
+    .footer_article{
+       text-align: center;
+       
+    }
+
+    /*Formulär*/
+   section{
+       width: 50%;
+       margin:0 auto;
+       margin-top: 5%;
+       margin-bottom: 5%;
+       box-sizing: border-box;
+
+    }
+    form{
+        display: block;
+       
+    }
+    
+    input[type="text"],input[type="email"]{
+    width: 50%;
+    margin:2%;
+    padding:1%;
+    border-radius:5px;
+    
+}
+
+
+textarea{
+    width:70%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+input[type=submit]{
+    margin-left:25%;
+    background-color: rgb(95, 185, 95);
+    color:black;
+    width:20%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+
+
+}
+
+
+    @media (max-width:800px)
+    {
+        div.articlewrapper{
+            display: flex;
+            flex-direction: column; 
+        }
+
+        #Rebecca{
+            margin:0 auto;
+            order:1;
+            
+        }
+
+        #personlighet{
+            margin:0 auto;
+            order:2;
+            padding:5%;
+            
+           
+        }
+
+        nav{
+            height:10vh;
+        }
+        li,a{
+           
+            font-size: 150%; 
+        }
+
+        #bloggbild{
+           
+            margin-top: 5%;
+            margin-bottom: 5%;
+           
+        }
+
+        #text2{
+            margin-top: 7%;
+            margin-bottom:2%;
+             
+        }
+    }
+
